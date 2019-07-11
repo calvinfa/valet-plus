@@ -31,7 +31,7 @@ class PhpFpm
     var $brew, $cli, $files, $pecl, $peclCustom;
 
     const DEPRECATED_PHP_TAP = 'homebrew/php';
-    const VALET_PHP_BREW_TAP = 'henkrehorst/php';
+    const VALET_PHP_BREW_TAP = 'calvinfa/php';
 
     /**
      * Create a new PHP FPM class instance.

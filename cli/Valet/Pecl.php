@@ -52,6 +52,7 @@ class Pecl extends AbstractPecl
             'extension_type' => self::NORMAL_EXTENSION_TYPE
         ],
         self::APCU_EXTENSION => [
+            '7.4' => false,
             '7.3' => false,
             '7.2' => false,
             '7.1' => false,
@@ -60,6 +61,7 @@ class Pecl extends AbstractPecl
             'extension_type' => self::NORMAL_EXTENSION_TYPE
         ],
         self::GEOIP_EXTENSION => [
+            '7.4' => false,
             '7.3' => '1.1.1',
             '7.2' => '1.1.1',
             '7.1' => '1.1.1',
@@ -67,6 +69,7 @@ class Pecl extends AbstractPecl
             'extension_type' => self::NORMAL_EXTENSION_TYPE
         ],
         self::MEMCACHE_EXTENSION => [
+            '7.4' => false,
             '7.3' => '3.1.3',
             '7.2' => '3.1.3',
             '7.1' => '3.1.3',

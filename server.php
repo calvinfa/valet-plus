@@ -31,6 +31,10 @@ if (strpos($siteName, 'www.') === 0) {
     $siteName = substr($siteName, 4);
 }
 
+if (strpos($siteName, "192.168.") === 0) {
+    $siteName = "usercore";
+}
+
 /**
  * Determine a possible rewrite.
  */
